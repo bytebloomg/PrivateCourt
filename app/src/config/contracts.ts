@@ -1,6 +1,6 @@
-const rawAddress = (import.meta.env.VITE_CONFIDENTIAL_COURT_ADDRESS ?? '') as string;
+// const rawAddress = (import.meta.env.VITE_CONFIDENTIAL_COURT_ADDRESS ?? '') as string;
 
-export const CONTRACT_ADDRESS = rawAddress as `0x${string}`;
+export const CONTRACT_ADDRESS = '0xaddf36864334B6fD97619DBD23ab34c6a3c66fA3';
 
 export const CONTRACT_ABI = [
   {

@@ -345,7 +345,7 @@ export function CourtApp() {
       }
 
       const contract = new ethers.Contract(CONTRACT_ADDRESS, CONTRACT_ABI, resolvedSigner) as any;
-      const trialId = await contract.callStatic.createTrial(partyA, partyB);
+      const trialId = await contract.getFunction('createTrial').staticCall(partyA, partyB);
       const tx = await contract.createTrial(partyA, partyB);
       await tx.wait();
 

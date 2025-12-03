@@ -8,11 +8,11 @@ import {
     externalEuint256,
     externalEaddress
 } from "@fhevm/solidity/lib/FHE.sol";
-import {SepoliaConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
+import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 
 /// @title ConfidentialCourt
 /// @notice Manages confidential court trials with fully homomorphic encryption support
-contract ConfidentialCourt is SepoliaConfig {
+contract ConfidentialCourt is ZamaEthereumConfig {
     struct Trial {
         address judge;
         address partyA;

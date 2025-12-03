@@ -1,6 +1,6 @@
 // const rawAddress = (import.meta.env.VITE_CONFIDENTIAL_COURT_ADDRESS ?? '') as string;
 
-export const CONTRACT_ADDRESS = '0xaddf36864334B6fD97619DBD23ab34c6a3c66fA3';
+export const CONTRACT_ADDRESS = '0xafF7967d25ecad338b0804E3c59F7DEE7dFAfA4E';
 
 export const CONTRACT_ABI = [
   {
